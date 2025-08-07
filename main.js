@@ -22,6 +22,15 @@ function comprarProducto() {
   console.log("Producto elegido (número): " + eleccion);
   console.log("Producto elegido (nombre): " + productos[eleccion - 1]);
   console.log("Cantidad: " + cantidad);
+
+  let mensajeFinal = 
+  "¡Gracias por tu compra!\n" +
+  "Tu pedido será procesado pronto.\n\n" +
+  "Seguinos en Instagram: @umbra.escritos\n" +
+  "y enterate de novedades, lanzamientos y más contenido exclusivo.";
+
+alert(mensajeFinal);
+console.log(mensajeFinal);
 }
 
 if (edad >= 18) {
