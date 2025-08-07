@@ -14,7 +14,7 @@ console.log("Edad: " + edad);
 const productos = ["Libro Inmundo", "Remera Umbra", "Taza Umbra"];
 
 function comprarProducto() {
-  let eleccion = prompt("Elegí un producto:\n1 - Libro Inmundo\n2 - Remera Umbra\n3 - Taza Umbra");
+  let eleccion = prompt("Elegí un producto:\n1 - Libro Infecta:Letum\n2 - Remera Umbra\n3 - Taza Umbra");
   let cantidad = prompt("¿Cuántas unidades querés comprar?");
 
   alert("Agregaste " + cantidad + " unidad(es) de " + productos[eleccion - 1] + " al carrito");
